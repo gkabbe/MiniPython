@@ -57,7 +57,7 @@ print("usw.")
 # Statt direkt True oder False zu benutzen, können wir natürlich auch einen booleschen Ausdruck
 # verwenden
 
-x = 7
+x = 
 print("Liegt x zwischen 0 und 10?")
 print(x > 0 and x < 10)
 
@@ -65,15 +65,41 @@ print(x > 0 and x < 10)
 # Wir können nun ein if - Statement benutzen, um einen booleschen Ausdruck auszuwerten und dann
 # zu entscheiden, wie der weitere Programmablauf ist:
 
-x = 7
+x = 
 print("x =", x)
 print("Liegt x zwischen 0 und 10?")
-if x > 0 and x < 10:
-    print("Ja, tut es!")
+if 0 < x < 10:
+    print("Ja!")
 else:
-    print("Nein, tut es nicht")
+    print("Nein")
+    
+    
+# Wenn es mehr als zwei mögliche Entscheidungen gibt, kann man elif verwenden:
 
+punkte = 
 
-# Aufgabe: Schreiben Sie ein Programm, das entscheidet, ob die Variable x durch 3 teilbar ist
+if punkte >= 90:
+    print("Sehr gut!")
+elif punkte >= 80:
+    print("Gut")
+elif punkte >= 70:
+    print("Befriedigend")
+elif punkte >= 60:
+    print("Ausreichend")
+else:
+    print("Durchgefallen...")
+    
 
+# Aufgabe 1: Schreiben Sie ein Programm, das entscheidet, ob die Variable x durch 3 teilbar ist
 
+# Aufgabe 2: 
+
+# Gegeben seien die Variablen
+
+#   student_motiviert = True
+#   student_ausgeschlafen = False
+#   unterricht_spannend = True
+
+# Welchen Wert hat python lernerfolg = student_ausgeschlafen or (student_motiviert and unterricht_spannend) ?
+
+# Schreiben Sie ein Programm, das
