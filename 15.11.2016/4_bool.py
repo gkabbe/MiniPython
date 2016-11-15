@@ -102,4 +102,3 @@ else:
 
 # Welchen Wert hat python lernerfolg = student_ausgeschlafen or (student_motiviert and unterricht_spannend) ?
 
-# Schreiben Sie ein Programm, das
