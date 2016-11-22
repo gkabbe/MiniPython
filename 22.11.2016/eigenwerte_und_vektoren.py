@@ -13,7 +13,6 @@ def plot_vector(*vectors):
     end_x, end_y = zip(*vectors)
     
     plt.quiver(start_x, start_y, end_x, end_y, angles="xy", scale_units="xy", scale=1)
-    print(max(end_x), max(end_y))
     plt.xlim(-1, max(end_x) * 2 + 1)
     plt.ylim(-1, max(end_y) * 2 + 1)
     plt.show()
