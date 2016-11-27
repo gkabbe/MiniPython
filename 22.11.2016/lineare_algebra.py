@@ -97,3 +97,4 @@ print(A[:2, :2])
 
 # Aufgabe 2:
 # Schreiben Sie eine Funktion, die eine 2x2 Matrix invertiert
+# Hinweis: Benutzen Sie z.B. die Cramersche Regel dafür
