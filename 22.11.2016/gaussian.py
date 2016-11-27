@@ -8,7 +8,6 @@ import numpy as np
 import matplotlib.pylab as plt   # Ermöglicht uns, die Funktionen grafisch anzuzeigen
 
 # Zuerst brauchen wir einen x-Achsen Abschnitt:
-
 # Erzeuge einen Vektor mit Werten von 0 bis 2 pi mit insgesamt 100 Werten
 x = np.linspace(0, 2 * np.pi, 100)
 # Erzeuge die Werte einer Sinus-Funktion, die von 0 bis 2 pi läuft
@@ -21,6 +20,7 @@ plt.show()
 
 # Aufgabe:
 # Schreiben Sie eine Funktion gaussian, die die Parameter x, center und sigma entgegennimmt und
-# plotten Sie die Funktion
-# Bestimmen Sie das Integral der Funktion mithilfe von np.trapz (Trapezregel)
-# Vergewissern Sie sich (grafisch), dass das Produkt zweier Gaussians wieder ein Gaussian ist
+# die y-Werte der entsprechenden Gauß-Funktion zurückgibt.
+# Plotten Sie die Funktion.
+# Bestimmen Sie das Integral der Funktion mithilfe von np.trapz (Trapezregel).
+# Vergewissern Sie sich (grafisch), dass das Produkt zweier Gaussians wieder ein Gaussian ist.

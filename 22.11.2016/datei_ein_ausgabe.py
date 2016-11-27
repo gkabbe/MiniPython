@@ -1,4 +1,6 @@
 """Dateien (die z.B. Messwerte enthalten), lassen sich leicht mit numpy einlesen"""
+import numpy as np
+
 
 data = np.loadtxt("messwerte.dat")
 
